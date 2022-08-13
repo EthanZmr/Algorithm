@@ -1,11 +1,16 @@
 package noob_00;
 
+import static noob_00.SelectionSort.print;
+
 /**
  * 冒泡排序
  */
 public class BubbleSort {
     public static void main(String[] args) {
-
+        int[] arr = {7, 1, 3, 5, 7, 6, 1, 5};
+        print(arr);
+        bubbleSort(arr);
+        print(arr);
     }
 
     public static void bubbleSort(int[] nums) {
