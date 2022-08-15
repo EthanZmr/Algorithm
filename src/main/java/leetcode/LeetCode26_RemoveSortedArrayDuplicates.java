@@ -15,7 +15,7 @@ public class LeetCode26_RemoveSortedArrayDuplicates {
     }
 
     public static int removeDuplicates(int[] nums) {
-        if (nums == null || nums.length < 2) {
+        if (nums == null || nums.length < 1) {
             return 0;
         }
         if (nums.length == 1) {
@@ -26,7 +26,7 @@ public class LeetCode26_RemoveSortedArrayDuplicates {
         while (j < nums.length) {
             if (nums[i] != nums[j]) {
                 i++;
-                nums[i] = nums[j]
+                nums[i] = nums[j];
             }
             j++;
         }
