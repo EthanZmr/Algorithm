@@ -51,11 +51,11 @@ public class LeetCode66_PlusOne {
      * 更简洁的写法
      * */
     public static int[] BestWayPlusOne(int[] digits) {
-        if (nums == null || nums.length == 0) {
+        if (digits == null || digits.length == 0) {
             return new int[]{1};
         }
 
-        for (i = digits.length - 1; i >= 0; i--) {
+        for (int i = digits.length - 1; i >= 0; i--) {
             if (digits[i] != 9) {
                 digits[i]++;
                 return digits;

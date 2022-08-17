@@ -100,11 +100,11 @@ public class ReverseLinkList {
         }
 
         public boolean queue(SingleNode node) {
-            
+            return false;
         }
 
         public SingleNode dequeue() {
-                
+            return null;
         }
         
     }
@@ -122,11 +122,11 @@ public class ReverseLinkList {
         }
 
         public boolean push(SingleNode node) {
-
+            return false;
         }
 
         public SingleNode pop() {
-            
+            return null;
         }
     }
 
