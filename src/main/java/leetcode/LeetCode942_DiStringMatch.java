@@ -29,11 +29,10 @@ public class LeetCode942_DiStringMatch {
             if (s.charAt(i) == 'I') {
                 arr[i] = val1;
                 val1++;
+                continue;
             }
-            if (s.charAt(i) == 'D') {
-                arr[i] = val2;
-                val2--;
-            }
+            arr[i] = val2;
+            val2--;
         }
         arr[arr.length - 1] = val1 > val2 ? val1 : val2;
         return arr;
