@@ -17,7 +17,7 @@ public class LeetCode142_LinkedListCycleii {
 
     static class ListNode {
         int val;
-        LeetCode141_LinkedListCycle.ListNode next;
+        ListNode next;
         ListNode (int x) {
             val = x;
             next = null;
