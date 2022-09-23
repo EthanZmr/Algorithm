@@ -8,4 +8,7 @@ package leetcode;
  * 1. 该序列为某字符串独有的子序列(既不能是其他)
  */
 public class LeetCode522_LongestUncommonSubsequenceii {
+    public static void main(String[] args) {
+
+    }
 }
