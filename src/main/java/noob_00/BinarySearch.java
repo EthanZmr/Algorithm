@@ -5,7 +5,9 @@ package noob_00;
  */
 public class BinarySearch {
     public static void main(String[] args) {
-
+        int[] nums = {2, 7, 14, 19, 22, 35};
+        int val = 19;
+        System.out.println(exist(nums, val));
     }
 
     public static boolean exist(int[] nums, int val) {

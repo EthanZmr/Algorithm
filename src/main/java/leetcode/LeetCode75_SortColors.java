@@ -1,7 +1,5 @@
 package leetcode;
 
-import com.sun.scenario.effect.impl.sw.java.JSWColorAdjustPeer;
-
 import java.util.Arrays;
 
 /**
